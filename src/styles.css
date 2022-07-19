@@ -3,3 +3,7 @@
 @tailwind components;
 
 @tailwind utilities;
+
+.card{
+    @apply max-w-3x1 border border-slate-500 rounded-md p-4 flex flex-col md:flex-row items-center;
+}
